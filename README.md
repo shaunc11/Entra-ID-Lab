@@ -15,12 +15,12 @@ In this project, I built a sandbox Microsoft Entra ID (formerly Azure Active Dir
 - **Tenant**: Azure Free Tier
 
 ### Users Created:
-- admin.shaun – Global Admin  
-- intern.kevin – Intern  
-- hr.jane – HR Generalist
-- sales.kyle – Sales Representative
-- sec.auditor – Security Auditor  
-- contractor.bob – External/Orphaned account  
+- **admin.shaun** – Global Admin  
+- **intern.kevin** – Intern  
+- **hr.jane** – HR Generalist
+- **sales.kyle** – Sales Representative
+- **sec.auditor** – Security Auditor  
+- **contractor.bob** – External/Orphaned account  
 
 ---
 
@@ -38,7 +38,7 @@ Interns should never have unrestricted access to identity, application, and poli
 - Documented justification for role changes  
 
 **Screenshot**  
-*(Insert screenshot of Kevin’s role assignment and removal)*
+![Intern with Global Admin Access](screenshots/intern-kevin-global-admin.png)
 
 ---
 
