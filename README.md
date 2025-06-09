@@ -101,7 +101,10 @@ Unscoped privileges introduce lateral attack potential—if one user is compromi
 - Documented role mapping strategy  
 
 **Screenshot**  
-*(Insert role review for each affected user)*
+![sales with user Admin](saleskyle1.png)
+
+![Sales with User Admin](saleskyle2.png)
+
 
 ---
 
