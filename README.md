@@ -60,7 +60,9 @@ This enables an HR user to install or misconfigure OAuth-integrated apps or expo
 - Created a custom group policy to limit HR access  
 
 **Screenshot**  
-*(Insert screenshot of role assignment screen for Jane)*
+![HR with App Admin](hrjane.png)
+
+![HR with Ap Admin](hrjane2.png)
 
 ---
 
