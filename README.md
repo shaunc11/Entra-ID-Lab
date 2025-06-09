@@ -7,6 +7,8 @@
 
 In this project, I built a sandbox Microsoft Entra ID (formerly Azure Active Directory) environment and intentionally misconfigured it to reflect real-world IAM security risks. I then audited the environment, identified 5 critical issues, and applied best-practice remediations.
 
+![Entra ID Dashboard](Entra_ID_Dashboard.png)
+
 ---
 
 ## Lab Environment Setup
@@ -37,8 +39,10 @@ Interns should never have unrestricted access to identity, application, and poli
 - Assigned no role (default user permissions only)  
 - Documented justification for role changes  
 
-**Screenshot**  
-![Intern with Global Admin Access](screenshots/intern-kevin-global-admin.png)
+**Screenshots**  
+![Intern with Global Admin Access](internkevin1.png)
+
+![Intern with Global Admin Access](internkevin2.png)
 
 ---
 
