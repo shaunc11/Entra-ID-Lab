@@ -29,7 +29,7 @@ In this project, I built a sandbox Microsoft Entra ID (formerly Azure Active Dir
 ##  Misconfiguration #1: Intern With Global Admin Access
 
 **Description**  
-intern.kevin was assigned the **Global Administrator** role, the highest privilege role in Entra ID.
+*intern.kevin* was assigned the **Global Administrator** role, the highest privilege role in Entra ID.
 
 **Why This Is a Problem**  
 Interns should never have unrestricted access to identity, application, and policy configuration. This violates least privilege and creates a massive risk vector.
@@ -49,7 +49,7 @@ Interns should never have unrestricted access to identity, application, and poli
 ## Misconfiguration #2: HR Staff Assigned App Administrator Role
 
 **Description**  
-`hr.jane` was given the **Application Administrator** role, allowing her to register, manage, and delete enterprise apps.
+*hr.jane* was given the **Application Administrator** role, allowing her to register, manage, and delete enterprise apps.
 
 **Why This Is a Problem**  
 This enables an HR user to install or misconfigure OAuth-integrated apps or expose sensitive APIs without security oversight.
@@ -69,7 +69,7 @@ This enables an HR user to install or misconfigure OAuth-integrated apps or expo
 ## Misconfiguration #3: No MFA Configured for Global Admin
 
 **Description**  
-`admin.shaun` had no multifactor authentication (MFA) methods enabled, and no Conditional Access enforcing MFA.
+*admin.shaun* had no multifactor authentication (MFA) methods enabled, and no Conditional Access enforcing MFA.
 
 **Why This Is a Problem**  
 A privileged account with no MFA is a top-tier risk for credential theft and lateral movement.
@@ -89,8 +89,8 @@ A privileged account with no MFA is a top-tier risk for credential theft and lat
 **Description**  
 Users across multiple departments were granted broad roles:
 
-- `hr.jane` → Application Admin (Misconfig #2)  
-- `sales.kyle` → User Admin  
+- *hr.jane* → Application Admin (Misconfig #2)  
+- *sales.kyle* → User Admin  
 
 **Why This Is a Problem**  
 Unscoped privileges introduce lateral attack potential if one user is compromised, the attacker gains high-value access to apps, users, or cloud policies.
@@ -111,7 +111,7 @@ Unscoped privileges introduce lateral attack potential if one user is compromise
 ## Misconfiguration #5: Orphaned Account with Security Role
 
 **Description**  
-`contractor.bob` was assigned the **Security Reader** role but was not assigned to any group, monitored project, or team.
+*contractor.bob* was assigned the **Security Reader** role but was not assigned to any group, monitored project, or team.
 
 **Why This Is a Problem**  
 This is a classic case of access without ownership—a ghost account that could be hijacked or abused with no one noticing.
@@ -122,7 +122,7 @@ This is a classic case of access without ownership—a ghost account that could 
 - Created onboarding/offboarding checklist  
 
 **Screenshot**  
-![Orpahaned Account](sec.auditor1.png)
+![Orpahaned Account](contractorbob.png)
 
 ---
 
