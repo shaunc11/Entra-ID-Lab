@@ -93,7 +93,7 @@ Users across multiple departments were granted broad roles:
 - `sales.kyle` → User Admin  
 
 **Why This Is a Problem**  
-Unscoped privileges introduce lateral attack potential—if one user is compromised, the attacker gains high-value access to apps, users, or cloud policies.
+Unscoped privileges introduce lateral attack potential if one user is compromised, the attacker gains high-value access to apps, users, or cloud policies.
 
 **Remediation**
 - Created custom RBAC roles using “least privilege” principles  
@@ -122,7 +122,7 @@ This is a classic case of access without ownership—a ghost account that could 
 - Created onboarding/offboarding checklist  
 
 **Screenshot**  
-*(Insert screenshot of Bob’s role, sign-in status, and audit history)*
+![Orpahaned Account](sec.auditor1.png)
 
 ---
 
@@ -140,7 +140,7 @@ This is a classic case of access without ownership—a ghost account that could 
 
 ## Final Thoughts
 
-This project gave me real-world experience simulating identity-based risk, performing access audits, and applying security best practices in Entra ID. IAM is often overlooked in cloud security—but it's where most breaches begin.
+This project gave me real-world experience simulating identity-based risk, performing access audits, and applying security best practices in Entra ID. IAM is often overlooked in cloud security but it's where most breaches begin.
 
 ---
 
