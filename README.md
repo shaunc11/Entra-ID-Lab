@@ -80,7 +80,7 @@ A privileged account with no MFA is a top-tier risk for credential theft and lat
 - Verified policy impact on login flow  
 
 **Screenshot**  
-*(Insert screenshot of authentication methods showing “No usable methods”)*
+![No MFA Configuresd](adminshaunMFA.png)
 
 ---
 
@@ -89,7 +89,7 @@ A privileged account with no MFA is a top-tier risk for credential theft and lat
 **Description**  
 Users across multiple departments were granted broad roles:
 
-- `hr.jane` → Application Admin  
+- `hr.jane` → Application Admin (Misconfig #2)  
 - `sales.kyle` → User Admin  
 
 **Why This Is a Problem**  
